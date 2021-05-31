@@ -29,4 +29,11 @@ for(var i = 0; i < listaCognomi.length; i++){
 }
 
 
+for(var i = 0; i < listaCognomi.length; i++){
+    listaCognomi.sort();
+    if(listaCognomi[i] === cognomeUtente) {
+        console.log(listaCognomi[i] + ' ' + listaCognomi.length);
+    }
+}
+
 
