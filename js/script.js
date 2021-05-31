@@ -17,13 +17,21 @@ var listaMail = ['marco@gmail.com' ,  'giovanni@gmail.com' , 'giacomo@gmail.com'
 
 //  2.  controlla che sia nella lista di chi può accedere,
 
-for ( i = 0; listaMail.length < 5; i++ ){
+if (listaMail.includes(mailUtente)) {
+         console.log('La tua mail e gia presente');
+     } else {
+         console.log('La tua mail non e presente');
+     }
 
-    if (listaMail[i].includes(mailUtente)) {
-        console.log('La tua mail e gia presente');
-    } else {
-        console.log('La tua mail non e presente');
-    }
-}
+
+
+// for ( i = 0; listaMail.length < 5; i++ ){
+
+//     if (listaMail[i].includes(mailUtente)) {
+//         console.log('La tua mail e gia presente');
+//     } else {
+//         console.log('La tua mail non e presente');
+//     }
+// }
 
 
