@@ -29,7 +29,7 @@
         console.log('La tua mail non e presente, e stata aggiunta');
 }
 
-        
+        console.log(listaMail);
 
 
 

@@ -24,5 +24,9 @@ listaCognomi.sort();
 
 // 4- scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
 
+for(var i = 0; i < listaCognomi.length; i++){
+    console.log(listaCognomi[i]);
+}
 
-console.log(listaCognomi);
+
+
